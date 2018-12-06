@@ -5,5 +5,7 @@ highlight.classList.add('highlight');
 document.body.append(highlight);
 
 function highlightLink() {
-    console.log('highlight');
+    console.log(this);
 }
+
+triggers.forEach(x => x.addEventListener('mouseenter', highlightLink));
