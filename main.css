@@ -22,17 +22,17 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     border-radius: 20px;
 }
 
 .highlight {
     transition: all 0.2s;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     position: absolute;
     top: 0;
     color: white;
-    background: black;
+    background: white;
     left: 0;
     z-index: -1;
     border-radius: 20px;
